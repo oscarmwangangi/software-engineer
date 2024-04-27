@@ -1,0 +1,851 @@
+body{
+    background-color:#212529;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    height: 330vh;
+}
+.content{
+    color: aliceblue;
+    display: grid;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr 1.5fr;
+    gap: 40px;
+    height: 330vh;
+    ;
+}
+.about{
+        
+    background-color: #2B3035;
+    border-radius: 15px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    padding-left: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-image: url(./njnjn.png);
+    height: 500px
+    
+}
+.aboutmetext{
+    width: 700px;
+    font-size: 20px;
+
+    
+}
+h1{
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: fit-content;
+}
+.myprojects{
+    
+    border-radius: 15px;
+}
+.heading{
+    
+        padding-left:  80px;
+    
+}
+.clientserver{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: fit-content;
+}
+h2{
+    color: beige;
+}
+.skills{
+     background-color: #2B3035;
+    color: white;
+    padding-left: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+   
+}
+.box{
+ display: flex;
+ justify-content: center;
+    
+}
+.outerbox{
+    height: 400px;
+    width: 400px;
+    border: solid white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 200px;
+    margin-top: 0%;
+}
+.innerbox{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border:solid white;
+    border-radius: 75px;
+    align-items: center; 
+    justify-content: center;
+    font-size: 25px;
+    background-color: pink;
+}
+.line1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+.sql{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+    text-align: center;
+   
+}
+.css{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: 250px;
+    padding-top: 9px;
+}
+.line2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 85px;
+}
+.node{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  margin-left: -60px;
+   text-align: center;
+   padding-top: 10px;
+}
+.html{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: 330px;
+    padding-top: 9px;
+}
+.line3{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 90px;
+}
+.react{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  margin-left: -116px;
+   text-align: center;
+   padding-top: 10px;
+}
+.js{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: 395px;
+    padding-top: 9px;
+}
+.line4{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 90px;
+}
+.graph{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  margin-left: -60px;
+   text-align: center;
+   padding-top: 10px;
+}
+.photo{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: 330px;
+    padding-top: 9px;
+}
+.line5{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 85px;
+}
+.java{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+    text-align: center;
+    
+}
+.c{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: 250px;
+    padding-top: 9px;
+}
+.contact{
+    margin-top: -45px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    
+}
+ 
+.rrr{
+    margin-right: 30px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+li:hover{
+    float: left;
+    color: white;
+    opacity: 0.6;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+img:hover{
+    opacity: 0.6;
+}
+.bar{
+    color: white;
+}
+.email{
+    color: green;
+}
+.bar{
+ margin-left: 30px;
+}
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    border-radius: 100%;
+    background: #141c38;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+  }
+  .back-to-top-icon {
+    width: 1rem;
+    height: 1rem;
+    color: #7ac9f9;
+  }
+  back-to-top:hover {
+    opacity: 60%;
+  }
+  
+  .progress-bar {
+    height: 1rem;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+@media (min-width:900px) and (max-width: 1200px){
+    
+    .aboutmetext{
+        width: 400px;
+       font-size: 15px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    
+      
+    }
+    @media (min-width:601px) and (max-width: 900px){
+        
+         .body{
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            height: 330vh;
+        }
+        .aboutmetext{
+            width: 400px;
+           font-size: 15px;
+        }
+        h1{
+            font-size: 60px;
+        }
+        h2{
+            text-align: start;
+        }
+        .pro{
+            font-size: 40px;
+            
+        }
+        .project{
+            
+            display: block;
+            position: relative;
+            text-align: start;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        img{
+            background-size: cover;
+            display: block;
+        }
+        #p1{
+            height:fit-content;
+
+        }
+        .myprojects{
+            position: relative;
+            top:4px
+        }
+        .beige{
+            display: block;
+            position: absolute;
+            text-align:left;
+            top: 0px;
+            z-index: 1;
+            padding-left: 0px;
+            margin-left: -80px;
+           
+            }
+        .clientserver{
+            display: block;
+            margin-top: 10px;
+            text-align: start;
+            margin-left: 5px;
+            margin-right: 50px;
+            width:fit-content;
+        }
+
+        #myp{
+            padding-top: 100px;
+        }
+        h5{
+            font-size:30px;
+        }
+        .cli{
+            
+            text-align: start;
+            width:400px;
+        }
+        .skills{
+            margin-top: 15px;
+            padding-top: -5px;
+            height: 400px;
+        }
+        .outerbox{
+            height: 300px;
+            width: 300px;
+            border: solid white;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            border-radius: 150px;
+            margin-top: 0%;
+        }
+        .innerbox{
+            display: flex;
+            height: 120px;
+            width: 120px;
+            border:solid white;
+            border-radius: 60px;
+            align-items: center; 
+            justify-content: center;
+            font-size: 25px;
+            background-color: pink;
+        }
+        .line1{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            ;
+            
+        }
+        .sql{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 12px;
+            text-align: center;
+            font-size: small;
+           
+        }
+        .css{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 200px;
+            padding-top: 9px;
+            font-size: small;
+        }
+        .line2{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 70px;
+        }
+        .node{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+          position: absolute;
+          border: none;
+          border-radius: 10px;
+          margin-left: -64px;
+           text-align: center;
+           padding-top: 10px;
+           font-size: small;
+        }
+        .html{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 260px;
+            padding-top: 9px;
+            font-size: small;
+        }
+        .line3{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 75px;
+        }
+        .react{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: -93px;
+            text-align: center;
+            padding-top: 10px;
+            font-size: small;
+        }
+        .js{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 295px;
+            padding-top: 9px;
+        }
+        .line4{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 75px;
+        }
+        .graph{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: -64px;
+            text-align: center;
+            padding-top: 10px;
+            font-size: small;
+        }
+        .photo{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 260px;
+            padding-top: 9px;
+            font-size: small;
+        }
+        .line5{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .java{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 12px;
+            text-align: center;
+            font-size: small;
+            
+        }
+        .c{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 200px;
+            padding-top: 9px;
+            font-size: small;
+        }
+    }
+    @media (max-width: 600px){
+         
+        .body{
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            height: 330vh;
+        }
+        .about{
+            width: 400px;
+
+        }
+        .aboutmetext{
+            width: 300px;
+           font-size: 14px;
+        }
+        h1{
+            font-size: 60px;
+            letter-spacing: 2px;
+        }
+        h2{
+            text-align: start;
+        }
+        .pro{
+            font-size: 40px;
+            
+        }
+        .project{
+            
+            display: block;
+            position: relative;
+            text-align: start;
+            margin-left: -14px;
+            margin-right: 5px;
+            width:fit-content;
+            font-size: 15px;
+        }
+        img{
+            background-size: cover;
+            display: block;
+        }
+        #p1{
+            height:fit-content;
+
+        }
+        .myprojects{
+            position: relative;
+            top:7px;
+           
+        }
+        .beige{
+            display: block;
+            position: absolute;
+            text-align:left;
+            top: 0px;
+            z-index: 1;
+            padding-left: 0px;
+            margin-left: -80px;
+            margin-top: 50px;
+           
+            }
+            .heading{
+                width: 450px;
+            }
+        .clientserver{
+            display: block;
+            margin-top: 20px;
+            text-align: start;
+            margin-left: 3px;
+            margin-right: 5px;
+            width: 400px;
+        }
+
+        #myp{
+            padding-top: 170px;
+
+        }
+        h5{
+            font-size:30px;
+        }
+        .cli{
+            
+            text-align: start;
+            width:300px;
+            
+        }
+        .skills{
+            margin-top: 15px;
+            padding-top: -5px;
+            height: 400px;
+           
+        }
+        .box{
+            padding-left: -934px;
+        }
+        
+        .outerbox{
+            height: 220px;
+            width: 220px;
+            border: solid white;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            border-radius: 115px;
+            margin-top: 0%;
+        }
+        .innerbox{
+            display: flex;
+            height: 110px;
+            width: 110px;
+            border:solid white;
+            border-radius: 55px;
+            align-items: center; 
+            justify-content: center;
+            font-size: 20px;
+            background-color: pink;
+        }
+        
+        .line1{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            ;
+            
+        }
+        .sql{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 3px;
+            text-align: center;
+            font-size: x-small
+           
+        }
+        .css{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 140px;
+            padding-top: 9px;
+            font-size: x-small;
+        }
+        .line2{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .node{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+          position: absolute;
+          border: none;
+          border-radius: 10px;
+          margin-left: -40px;
+           text-align: center;
+           padding-top: 7px;
+           font-size: x-small;
+        }
+        .html{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 180px;
+            padding-top: 7px;
+            font-size: x-small;
+        }
+        .line3{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 55px;
+        }
+        .react{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: -78px;
+            text-align: center;
+            padding-top: 7px;
+            font-size: x-small;
+        }
+        .js{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 218px;
+            padding-top: 7px;
+            font-size: x-small;
+        }
+        .line4{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 55px;
+        }
+        .graph{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: -40px;
+            text-align: center;
+            padding-top: 7px;
+            font-size: x-small;
+        }
+        .photo{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 180px;
+            padding-top: 7px;
+            font-size: x-small;
+        }
+        .line5{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 47px;
+        }
+        .java{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 3px;
+            text-align: center;
+            font-size: x-small;
+            
+        }
+        .c{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 140px;
+            padding-top: 7px;
+            font-size: x-small;
+        }
+    }
+    @media(min-width:800px) and (max-width:900px){
+        
+        .contact{
+            margin-top: 340px;
+        }
+    }
+    @media(min-width:700px) and (max-width:799px){
+        
+        .contact{
+            margin-top: 150px ;
+        }
+    }
+    @media(min-width:600px) and (max-width:700px){
+        
+        .contact{
+            margin-top: 45px;
+        }
+    }
