@@ -11,7 +11,7 @@ body{
 .content{
     color: aliceblue;
     display: grid;
-    grid-template-rows: 1.5fr 1fr 1fr 1fr 1.5fr;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr 1.5fr ;
     gap: 40px;
     height: 330vh;
     ;
@@ -831,21 +831,4 @@ img:hover{
             font-size: x-small;
         }
     }
-    @media(min-width:800px) and (max-width:900px){
-        
-        .contact{
-            margin-top: 340px;
-        }
-    }
-    @media(min-width:700px) and (max-width:799px){
-        
-        .contact{
-            margin-top: 150px ;
-        }
-    }
-    @media(min-width:600px) and (max-width:700px){
-        
-        .contact{
-            margin-top: 45px;
-        }
-    }
+    
